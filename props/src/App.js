@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   const date=new Date()
   const hours= date.getHours()
+  const currenTime= date.toLocaleTimeString()
   let timeOfDay
 
   if (hours<12){
@@ -18,8 +19,10 @@ timeOfDay="afternoon"
   return (
     <div className="App">
       <h1>Good {timeOfDay} </h1>
+      <h2>It is currently {currenTime}</h2>
     </div>
   );
 }
+
 
 export default App;
