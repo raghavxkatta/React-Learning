@@ -8,16 +8,19 @@ export default function Contact(props) {
     console.log(props)
     return (
         <div className="contact-card">
-            <img src={Whisker} alt="" />
-            <h3>Mr. Whiskerson</h3>
+            <img src={props.img} alt="" />
+            <h3>{props.name}</h3>
             <div className="info-group">
                 <img src={PhoneIcon} alt="" />
-                <p>(212) 555-1234</p>
+                <p>{props.phone}</p>
             </div>
             <div className="info-group">
                 <img src={MailIcon} alt="" />
-                <p>mr.whiskaz@catnap.meow</p>
+                <p>{props.mail}</p>
             </div>
         </div>
     );
 }
+
+
+/* so basically props is acting as object which has the name, mail... properties with which we just need to add just like we did in js and all the things would update */
