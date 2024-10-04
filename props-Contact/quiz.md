@@ -21,7 +21,8 @@ only have the prooperties/attributes specified in the HTML specification.
 
 
 4. How do I receive props in a component?
-function Navbar(props) {
+
+A4. function Navbar(props) {
     return (
         <header>
             ...
@@ -29,7 +30,9 @@ function Navbar(props) {
         </header>
     )
 }
+<!-- simply enough the parameters of the component function will recieve that value -->
 
-
+<!-- The parameter that you put inside your component will be an object that represents all of the props that your component recieved  -->
 5. What data type is `props` when the component receives it?
-I think string
+
+A5. It is an object which uses dot syntax
