@@ -7,6 +7,7 @@ export default function Joke(props){
             {/* This basically means when prop-setup does not existit has a display of none and vice versa */}
                 <h3 style={{display:props.Setup ? "block":"none"}}>Setup: {props.Setup}</h3>
         <p>{props.Punchline}</p>
+        <hr/>
         </div>
     )
 }
