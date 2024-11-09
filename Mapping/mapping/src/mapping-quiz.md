@@ -9,4 +9,4 @@ A2.Convert an array of raw data into an array of JSX elements that can be displa
 3. Why is using `.map()` better than just creating the components
    manually by typing them out?
 
-A3.It makes our code more "self-sustaining" - not requiring additional changes whenever the data changes
+A3.It makes our code more "self-sustaining" - not requiring additional changes whenever the data changes.
