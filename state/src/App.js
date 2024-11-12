@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import HandleClick from '../src/components/HandleClick'
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-     <HandleClick/>
+     <Counter/>
     </div>
   );
 }
